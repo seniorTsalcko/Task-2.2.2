@@ -4,6 +4,6 @@ import web.model.Car;
 
 import java.util.List;
 
-public interface carService {
+public interface CarService {
     List<Car> listOfCars(int count);
 }
